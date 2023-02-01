@@ -1,0 +1,40 @@
+.footer,
+.footer__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__content {
+    border-top: 1px solid #2e3032;
+    padding: 10px;
+}
+
+.footer__logo {
+    margin-right: 120px;
+}
+.footer__menu {
+    transform: initial;
+}
+
+.socials {
+    margin-right: 60px;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 2.7px;
+}
+
+.contacts__text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+}
