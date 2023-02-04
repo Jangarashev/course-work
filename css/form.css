@@ -41,3 +41,16 @@
     font-size: 18px;
     color: #1A1B1E;
 }
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button {
+    margin-right: 13px;
+}
+
+.form__button:last-child {
+    margin-right: 0;
+}

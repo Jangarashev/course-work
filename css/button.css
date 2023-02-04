@@ -30,3 +30,12 @@
     background: #FF3D00;
     color: #FFFFFF;
 }
+
+.button--color--grey {
+    background: #8E8E8E
+}
+
+.button--color--grey:hover {
+    background: #2B2B2B;
+    color: #fff;
+}
