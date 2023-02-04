@@ -1,10 +1,14 @@
-.footer,
 .footer__content {
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 45px;
     justify-content: space-between;
+    border-top: 1px solid #2e3032;
+    padding: 41px 0 59px 0;
+}
+
+.footer__content--inner {
+    padding-bottom: 30px;
 }
 
 .footer__col {
@@ -12,29 +16,34 @@
     align-items: center;
 }
 
-.footer__content {
-    border-top: 1px solid #2e3032;
-    padding: 10px;
+.footer__logo {
+    margin-right: 131px;
 }
 
-.footer__logo {
-    margin-right: 120px;
-}
 .footer__menu {
     transform: initial;
+}
+
+.footer__contacts {
+    padding-top: 5px;
 }
 
 .socials {
     margin-right: 60px;
 }
 
+.socials__list {
+    display: flex;
+    align-items: center;
+}
+
 .socials__item {
-    display: inline-block;
-    margin-right: 2.7px;
+    margin-right: 10px;
 }
 
 .contacts__text {
     font-size: 11px;
     font-weight: 400;
-    line-height: 10px;
+    line-height: 1;
+    margin-bottom: 5px;
 }

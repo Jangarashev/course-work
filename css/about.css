@@ -3,12 +3,17 @@
     content: "";
     width: 490px;
     height: 505px;
-    background: url("/course-work/img/cameraman.png") center center / cover no-repeat;
+    background: url("../img/cameraman.png") center center / cover no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .about__container {
-    display: flex;
-    align-items: flex-end;
+position: relative;
+padding-top: 97px;
+display: flex;
+justify-content: flex-end;
 }
 
 .about__content {
@@ -20,8 +25,7 @@
     padding: 70px 202px 64px 81px;
     line-height: 27px;
     color: #060606;
-    margin-top: 107px ;
-    margin-left: -50px;
+    position: relative;
 }
 
 .about__title {
@@ -48,7 +52,7 @@
     color: #FFFFFF;
     padding: 18px 40px;
     cursor: pointer;
-    transition: all .3s;
+    transition: background-color .3s, border-color .3s, color .3s ;
 }
 
 .about__buttom:hover {

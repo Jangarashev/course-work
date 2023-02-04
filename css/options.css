@@ -44,7 +44,7 @@
 }
 
 .options__terms-item {
-    width: calc(100% / 2 - 32px);
+    width: calc(100% / 2 - 30px);
     line-height: 20px;
     color: #666666;
 }

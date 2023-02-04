@@ -1,0 +1,272 @@
+.top-line {
+    min-height: 416px;
+    background: url("/course-work/img/top-line.png") center top no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 27.5px;
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews__text {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 98.05px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+color: #9A9A9A;
+font-size: 14px;
+text-decoration-line: underline;
+font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link {
+   color: #9A9A9A; 
+   font-size: 14px;
+   text-decoration-line: underline;
+}
+
+.page-content {
+    background: #e5e5e5;
+    padding-top: 102px;
+    margin-bottom: 94px;
+}
+
+.reviews {
+    background: #e5e5e5;
+    column-count: 2;
+    column-gap: 26px;
+    margin-bottom: 33px;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    color: #818181;
+    font-size: 16px;
+    padding: 50px 29px;
+    background: #F4F5F5;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E77A4;
+    margin-bottom: 13px;
+}
+
+.review__user::after {
+    content: url(/course-work/img/vk-blue\ 1.png);
+    height: 30px;
+    padding-left: 7px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 10px 25px;
+    border-radius: 35px;
+    background: #E7E7E7;
+}
+
+.tag--bg--red {
+    background: #F2D4C9;
+}
+
+.review__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.review__title--short {
+    margin-bottom: 13px;
+}
+
+.review__title--long {
+    margin-bottom: 26px;
+}
+
+.review__content-text {
+   color:  #818181;
+   line-height: 27px;
+   font-size: 16px;
+}
+
+.review__content-text--short {
+    margin-bottom: 48px;
+}
+
+.review__content-text--long {
+    margin-bottom: 29px;
+}
+
+.review__date {
+    font-size: 14px;
+    color: #1A1B1E;
+    font-weight: 600;
+}
+
+.paginator--theme--dark , .paginator__link {
+    color: #000; 
+  }
+
+  .paginator--theme--dark .paginator__link:hover {
+    color: #fff;
+    }
+    
+
+.separator {
+    background: #373737 url(/course-work/img/party.png) right 10% bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.separator__content {
+    max-width: 48%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 65.37px;
+}
+
+.separator__title-special {
+    color: #FF5400;
+}
+
+.inner-section {
+    background: #F4F5F5;
+    color: #1A1B1E;
+    padding: 80px 0;
+}
+
+.inner-section__title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49.03px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+   flex: 1; 
+   margin-right: 28px;
+   border-radius: 4px;
+   border: none;
+   background: #fff;
+   padding: 20px 30px;
+   font-size: 18px;
+   color: #1A1B1E;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 235px;
+    width: 1142px;
+    padding: 30px 30px;
+    color: #666;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 38%;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #F2D4C9;
+}
+
+.controls__checkbox {
+    display: none;
+}

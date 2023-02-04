@@ -45,8 +45,12 @@ img {
     max-width: 100%;
 }
 
-.main-page-wrapper {
-    background: url("/course-work/img/hero.png") center top no-repeat, url("/course-work/img/bottom-pic.png") center bottom 110px no-repeat
+.main-page {
+    background: url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") center bottom 110px no-repeat
+}
+
+.main-page__content {
+    margin-bottom: 55px;
 }
 
 .container {
@@ -55,9 +59,10 @@ img {
     position: relative;
 }
 
-.main__container {
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 800px;
+    min-height: 565px;
+    margin-bottom: 230px;
 }

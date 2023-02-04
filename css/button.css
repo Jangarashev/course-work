@@ -9,7 +9,8 @@
     color: #FFFFFF;
     padding: 18px 53px;
     cursor: pointer;
-    transition: all .3s;
+    transition: background-color .3s, border-color .3s, color .3s ;
+    display: inline-block;
 }
 
 .button:hover {
@@ -22,7 +23,7 @@
     background: #fff;
     border-color: #FF3D00;
     color: #FF3D00;
-    transition: all .3s;
+    transition: background-color .3s, border-color .3s, color .3s ;
 }
 
 .button--line:hover {

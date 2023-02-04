@@ -1,5 +1,5 @@
 .news {
-    margin-bottom: 145px;
+    margin-bottom: 151px;
 }
 
 .news__list {
@@ -38,8 +38,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 30px 50px 30px 30px;
-    min-height: 130px;
+    padding: 30px 50px 23px 30px;
+    min-height: 125px;
 }
 
 .news__text {
@@ -56,5 +56,5 @@
 }
 
 .news__list {
-    margin-bottom: 43px;
+    margin-bottom: 58px;
 }
