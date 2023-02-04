@@ -1,6 +1,6 @@
 .top-line {
     min-height: 416px;
-    background: url("/course-work/img/top-line.png") center top no-repeat;
+    background: url("../img/top-line.png") center top no-repeat;
     display: flex;
     flex-direction: column;
     padding-bottom: 27.5px;
@@ -95,7 +95,7 @@ font-weight: bold;
 }
 
 .review__user::after {
-    content: url(/course-work/img/vk-blue\ 1.png);
+    content: url(../img/vk-blue\ 1.png);
     height: 30px;
     padding-left: 7px;
 }
@@ -168,7 +168,7 @@ font-weight: bold;
     
 
 .separator {
-    background: #373737 url(/course-work/img/party.png) right 10% bottom no-repeat;
+    background: #373737 url(../img/party.png) right 10% bottom no-repeat;
     min-height: 360px;
     display: flex;
     flex-direction: column;
