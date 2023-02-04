@@ -53,6 +53,13 @@ img {
     margin-bottom: 55px;
 }
 
+.page-content {
+    background: #fff;
+    color: #303030;
+    padding: 94px 0;
+}
+
+
 .container {
     width: 1140px;
     margin: 0 auto;

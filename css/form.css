@@ -1,0 +1,43 @@
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 235px;
+    width: 1142px;
+    padding: 30px 30px;
+    color: #666;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 38%;
+    font-size: 18px;
+    color: #1A1B1E;
+}
