@@ -21,6 +21,8 @@
     height: 80px;
     top: 100%;
     display: none;
+    right: 0;
+    top: 0;
 }
 
 .dropdown__list {
@@ -42,9 +44,9 @@
 .dropdown__menu:after {
     content:'';
     position: absolute;
-    left: 50%;
-    top: 26px;
-    margin-left: 16px;
+    left: 60%;
+    top: -26px;
+    margin-left: -16px;
     border: 16px solid transparent;
-    border-top: 10px solid #d1d1d1;
+    border-top: 10px solid #1E1F20;
 }
