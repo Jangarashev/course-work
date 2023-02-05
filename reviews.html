@@ -20,19 +20,19 @@
                 <header class="header top-line__header">
                     <div class="header__col">
                         <a href="welcome.html" class="logo">
-                        <img src="img/logo.png" alt="Logo" class="logo__img"></a>
+                            <img src="img/logo.png" alt="Logo" class="logo__img"></a>
                     </div>
                     <div class="header__col header__col-center">
                         <nav class="menu header__menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                <a href="index.html" class="menu__link">Главная</a>
+                                    <a href="index.html" class="menu__link">Главная</a>
                                 </li>
                                 <li class="menu__item">
-                                <a href="services.html" class="menu__link">Услуги</a>
+                                    <a href="services.html" class="menu__link">Услуги</a>
                                 </li>
                                 <li class="menu__item">
-                                <a href="reviews.html" class="menu__link">Отзывы</a>
+                                    <a href="reviews.html" class="menu__link">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
@@ -40,7 +40,15 @@
                     <div class="header__col header__col-right">
                         <address class="contacts header__contacts">
                             <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-                            <div class="contacts__dropdown-title">График работы</div>
+                            <div class="contacts__dropdown-title">
+                                <a href="#" class="dropdown__link">График работы</a>
+                                <div class="dropdown__menu">
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                                        <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </address>
                     </div>
                 </header>
@@ -187,27 +195,27 @@
                 <div class="paginator paginator--theme--dark">
                     <div class="paginator__display">Страница 1 из 7</div>
                     <ul class="paginator__list">
-                    <li class="paginator__item paginator__item--active">
-                        <a href="#" class="paginator__link">1</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">2</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">3</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">4</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">5</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">6</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a href="#" class="paginator__link">7</a>
-                    </li>
+                        <li class="paginator__item paginator__item--active">
+                            <a href="#" class="paginator__link">1</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">2</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">3</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">4</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">5</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">6</a>
+                        </li>
+                        <li class="paginator__item">
+                            <a href="#" class="paginator__link">7</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -224,14 +232,15 @@
 
         <section class="inner-section inner-section--review">
             <div class="container">
-              <h2 class="inner-section--review__title">оставьте отзыв</h2>
+                <h2 class="inner-section--review__title">оставьте отзыв</h2>
                 <form action="" class="form">
                     <div class="form__row">
                         <input type="text" placeholder="Игорь Петрович |" class="form__input">
                         <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
                     </div>
                     <div class="form__row">
-                        <textarea name="" id="" cols="30" rows="10" class="form__input--textarea">Напишите свой честный отзыв ;)</textarea>
+                        <textarea name="" id="" cols="30" rows="10"
+                            class="form__input--textarea">Напишите свой честный отзыв ;)</textarea>
                     </div>
                     <div class="form__controls">
                         <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
@@ -290,61 +299,57 @@
 
         <footer class="footer">
             <div class="container">
-              <div class="footer__content footer__content--inner">
-                <div class="footer__col">
-                  <a href="welcome.html" class="logo footer__logo">
-                    <img src="img/logo.png" alt="Logo" class="logo__img"></a>
-                  <nav class="menu  footer__menu">
-                    <ul class="menu__list">
-                      <li class="menu__item">
-                        <a href="index.html" class="menu__link">Главная</a>
-                      </li>
-                      <li class="menu__item">
-                        <a href="services.html" class="menu__link">Услуги</a>
-                      </li>
-                      <li class="menu__item">
-                        <a href="reviews.html" class="menu__link">Отзывы</a>
-                      </li>
-                    </ul>
-                  </nav>
+                <div class="footer__content footer__content--inner">
+                    <div class="footer__col">
+                        <a href="welcome.html" class="logo footer__logo">
+                            <img src="img/logo.png" alt="Logo" class="logo__img"></a>
+                        <nav class="menu  footer__menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="services.html" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="reviews.html" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__col footer__col-right">
+                        <div class="socials  footer__socials">
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/telegram.png" alt="Телеграмм" class="socials__item-pic">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/vk.png" alt="Вконтакте" class="socials__item-pic">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/fb.png" alt="Facebook" class="socials__item-pic">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="img/in.png" alt="Instagram" class="socials__item-pic">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <address class="contacts  footer__contacts">
+                            <div class="contacts__text">Бесплатный звонок по России</div>
+                            <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
-                <div class="footer__col footer__col-right">
-                  <div class="socials  footer__socials">
-                    <ul class="socials__list">
-                      <li class="socials__item">
-                        <a href="#" class="socials__link">
-                          <img src="img/telegram.png" alt="Телеграмм"
-                            class="socials__item-pic">
-                        </a>
-                      </li>
-                      <li class="socials__item">
-                        <a href="#" class="socials__link">
-                          <img src="img/vk.png" alt="Вконтакте"
-                            class="socials__item-pic">
-                        </a>
-                      </li>
-                      <li class="socials__item">
-                        <a href="#" class="socials__link">
-                          <img src="img/fb.png" alt="Facebook"
-                            class="socials__item-pic">
-                        </a>
-                      </li>
-                      <li class="socials__item">
-                        <a href="#" class="socials__link">
-                          <img src="img/in.png" alt="Instagram"
-                            class="socials__item-pic">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <address class="contacts  footer__contacts">
-                    <div class="contacts__text">Бесплатный звонок по России</div>
-                    <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-                  </address>
-                </div>
-              </div>
             </div>
-          </footer>
+        </footer>
 
     </div>
 
