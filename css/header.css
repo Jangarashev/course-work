@@ -38,15 +38,6 @@
     line-height: 1.4;
 }
 
-.contacts__dropdown-title {
-    margin-top: -8px;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    font-style: normal;
-    color: #FF3D00;
-}
-
 .menu__list {
     display: flex;
     align-items: center;
