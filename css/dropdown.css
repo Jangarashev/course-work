@@ -43,8 +43,8 @@
     content:'';
     position: absolute;
     left: 50%;
-    bottom: -26px;
-    margin-left: -16px;
+    top: 26px;
+    margin-left: 16px;
     border: 16px solid transparent;
-    border-top: 10px solid #E7E2E2;
+    border-top: 10px solid #d1d1d1;
 }
