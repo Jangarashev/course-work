@@ -45,7 +45,7 @@
     content:'';
     position: absolute;
     left: 60%;
-    bottom: -26px;
+    top: 26px;
     margin-left: -16px;
     border: 16px solid transparent;
     border-top: 10px solid #b7992c;
