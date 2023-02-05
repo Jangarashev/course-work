@@ -22,3 +22,17 @@
     top: 100%;
     display: none;
 }
+
+.dropdown__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown__item {
+    font-size: 13px;
+    color: #1E1F20;
+}
+.dropdown__item-bold {
+    font-weight: 700;
+}
