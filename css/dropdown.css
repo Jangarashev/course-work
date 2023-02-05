@@ -22,7 +22,7 @@
     top: 100%;
     display: none;
     right: 0;
-    top: 0;
+    bottom: 0;
 }
 
 .dropdown__list {
@@ -45,8 +45,8 @@
     content:'';
     position: absolute;
     left: 60%;
-    top: -26px;
+    bottom: -26px;
     margin-left: -16px;
     border: 16px solid transparent;
-    border-top: 10px solid #1E1F20;
+    border-top: 10px solid #b7992c;
 }
