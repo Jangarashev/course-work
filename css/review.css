@@ -10,7 +10,7 @@
 .review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .review__user {
@@ -20,6 +20,7 @@
     font-weight: 700;
     color: #2E77A4;
     margin-bottom: 13px;
+    padding-top: 10px;
 }
 
 .review__user::after {
@@ -43,10 +44,6 @@
     color: #202020;
 }
 
-.review__title--short {
-    margin-bottom: 13px;
-}
-
 .review__title--long {
     margin-bottom: 26px;
 }
@@ -55,14 +52,11 @@
     color: #818181;
     line-height: 27px;
     font-size: 16px;
+    margin-bottom: 25px;
 }
 
 .review__content-text--short {
-    margin-bottom: 48px;
-}
-
-.review__content-text--long {
-    margin-bottom: 29px;
+    padding: 12px 0;
 }
 
 .review__date {

@@ -10,10 +10,10 @@
 }
 
 .about__container {
-position: relative;
-padding-top: 97px;
-display: flex;
-justify-content: flex-end;
+    position: relative;
+    padding-top: 97px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about__content {

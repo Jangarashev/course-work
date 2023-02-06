@@ -28,19 +28,6 @@
     padding-top: 5px;
 }
 
-.socials {
-    margin-right: 60px;
-}
-
-.socials__list {
-    display: flex;
-    align-items: center;
-}
-
-.socials__item {
-    margin-right: 10px;
-}
-
 .contacts__text {
     font-size: 11px;
     font-weight: 400;
