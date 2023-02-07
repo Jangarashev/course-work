@@ -40,3 +40,23 @@
 .about__text {
     margin-bottom: 43px;
 }
+
+.about__buttom {
+    border: 1px solid transparent;
+    background: #FF3D00;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 40px;
+    cursor: pointer;
+    transition: background-color .3s, border-color .3s, color .3s ;
+}
+
+.about__buttom:hover {
+    background: #fff;
+    border-color: #FF3D00;
+    color: #FF3D00;
+}
