@@ -16,6 +16,6 @@
     text-decoration: none;
 }
 
-.menu__link:hover {
+.menu__link:hover, .menu__link--active {
     color: #FF5400;
 }

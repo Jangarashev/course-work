@@ -25,6 +25,7 @@
     opacity: 0;
     animation: rotateIn 1s;
     animation-fill-mode: forwards;
+    text-align: center;
 }
 
 @keyframes rotateIn {

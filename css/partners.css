@@ -31,4 +31,10 @@
     height: 100px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+
+.partners__link {
+    filter: grayscale(0);
 }
