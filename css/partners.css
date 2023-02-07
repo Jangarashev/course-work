@@ -35,6 +35,6 @@
     transition: filter .3s;
 }
 
-.partners__link {
+.partners__link:hover {
     filter: grayscale(0);
 }

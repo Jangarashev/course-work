@@ -4,6 +4,14 @@
     margin-right: 60px;
 }
 
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
 .socials__link {
     position: relative;
     display: block;
@@ -38,7 +46,7 @@
 }
 
 .socials__link:hover::after {
-    opacity: 0;
+    opacity: 1;
 }
 
 .socials__item--icon--tg .socials__link::before {
